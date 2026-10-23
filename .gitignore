@@ -1,0 +1,17 @@
+# credentials & runtime data — never commit
+accounts.jsonl
+proxies.txt
+logs/
+archive/legacy/*.jsonl
+.*_key
+.env
+
+# python
+.venv/
+__pycache__/
+*.pyc
+
+# editors / os
+.DS_Store
+.idea/
+.vscode/
